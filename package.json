@@ -1,8 +1,8 @@
 {
   "name": "car-dealership",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Nest.js proyect",
+  "author": "Valentin Richter",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
