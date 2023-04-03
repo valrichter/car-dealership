@@ -7,7 +7,6 @@ import {
   ParseIntPipe,
   Patch,
   Post,
-  Put,
 } from '@nestjs/common';
 import { CarsService } from './cars.service';
 
@@ -20,7 +19,7 @@ export class CarsController {
   }
 
   @Get(':id')
-  getCarById(@Param('id', ParseIntPipe) id: number) {
+  getCarById(@Param('id', ParseIntPipe) id: string) {
     console.log({ id });
     return this.carsService.findOneById(id);
   }
